@@ -9,9 +9,11 @@ description: 严谨撰写、修改、阅读与审查数学论文，重点支持�
 
 ## 兼容入口与两套关联技能
 
-本入口按当前任务分流。涉及推理、数学审查和证明重建时使用 [$mathematical-reasoning](../mathematical-reasoning/SKILL.md)；涉及已核数学的独立组织、写作审查和跨文比较时使用 [$mathematical-writing](../mathematical-writing/SKILL.md)。二者分工但不割裂：先完成数学审查修正，再审写作，最后才开放原文比较。
+本入口按当前任务分流。涉及推理、数学审查和证明重建时使用 [$mathematical-reasoning](../mathematical-reasoning/SKILL.md)；涉及已有数学基线的组织、写作审查和跨文比较时使用 [$mathematical-writing](../mathematical-writing/SKILL.md)。包含双重审查的训练任务先完成数学审查修正，再审写作，最后才开放原文比较；普通编辑按其范围检查数学保持，不强制重建完整证明。
 
 仅在用户明确要求论文训练时，读取同包的[训练契约](../mathematical-writing/references/training-contract.md)，遵守其中阶段门槛、七项报告和证据分级。文体观察不自动成为 Level 3 规则；限定单元不能替代整篇验证。
+
+数学摘要、引言和贡献定位由mathematical-writing按需读取[研究定位模块](../mathematical-writing/references/research-framing.md)；意义、边界、理论与数值混合讨论或指定期刊/首次投稿由其读取[期刊适配模块](../mathematical-writing/references/journal-adaptation.md)。只加载本次需要的模块，不额外建立总入口或强制完整证明审查。以具体主张的证明、严格推论、数值观察或猜想状态选择表达；混合论文仍由一个写作入口保持整稿一致。
 
 ## 确认任务边界
 
