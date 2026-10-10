@@ -1,0 +1,8 @@
+interface:
+  display_name: 数学论文写作
+  short_description: 按当前请求润色、组织与审查中英文数学论文，保持数学含义与证据边界
+  default_prompt: 使用 $mathematical-writing，按我指定的语言和范围处理文稿；保留数学含义，疑点单列。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: 数学证明推理
+  short_description: 按证明依赖检查数学结构、关键估计、极限与闭合，并保留适用边界
+  default_prompt: 使用 $mathematical-reasoning 重建并审查这份数学证明，区分已证内容、关键缺口和可引用工具。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
