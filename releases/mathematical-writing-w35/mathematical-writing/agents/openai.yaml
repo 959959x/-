@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mathematical Writing / 数学论文写作"
+  short_description: "Write and edit mathematical papers without changing their claims"
+  default_prompt: "Use $mathematical-writing to improve this mathematical text while preserving its assumptions, quantifiers, and proof responsibilities."
+policy:
+  allow_implicit_invocation: true
