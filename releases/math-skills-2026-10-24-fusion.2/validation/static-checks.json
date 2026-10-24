@@ -1,0 +1,753 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "math-paper-workflow:quick_validate",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": "math-paper-workflow:agents/openai.yaml:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "math-paper-workflow:assets/icon.svg:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "math-paper-workflow:implicit_invocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "math-paper-workflow:LICENSE:upstream_notice_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "math-paper-workflow:LICENSE_SCOPE.md:upstream_notice_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-reasoning:quick_validate",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": "mathematical-reasoning:agents/openai.yaml:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-reasoning:assets/icon.svg:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-reasoning:implicit_invocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-reasoning:LICENSE:upstream_notice_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-reasoning:LICENSE_SCOPE.md:upstream_notice_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-writing:quick_validate",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": "mathematical-writing:agents/openai.yaml:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-writing:assets/icon.svg:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-writing:implicit_invocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-writing:LICENSE:upstream_notice_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mathematical-writing:LICENSE_SCOPE.md:upstream_notice_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/agents/openai.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/assets/icon.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/chinese-pde-writing-style.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/dispersive-writing-style.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/elliptic-writing-style.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/evidence-sources.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/language-routes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/literature-style-samples.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/manuscript-editing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/parabolic-writing-style.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/pde-writing-style.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/proof-audit.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:math-paper-workflow/references/proof-grounded-writing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/agents/openai.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/assets/icon.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/references/audit-domains.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/references/evidence-sources.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/references/rule-candidates.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/references/training-contract.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-reasoning/references/validated-rules.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/agents/openai.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/assets/icon.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/evidence-sources.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/fusion-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/journal-adaptation.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/language-routes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/legacy-evidence-inventory.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/manuscript-editing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/research-framing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/rule-candidates.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/training-contract.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline_path_retained:mathematical-writing/references/validated-rules.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:mathematical-writing/references/research-framing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:mathematical-writing/references/journal-adaptation.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:mathematical-reasoning/references/audit-domains.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:math-paper-workflow/references/proof-audit.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:math-paper-workflow/references/literature-style-samples.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:math-paper-workflow/references/evidence-sources.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:mathematical-reasoning/references/evidence-sources.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preserved:mathematical-writing/references/evidence-sources.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Rule:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Reason:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Use when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Avoid when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Good pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Bad pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O001:Evidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Rule:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Reason:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Use when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Avoid when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Good pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Bad pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O002:Evidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Rule:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Reason:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Use when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Avoid when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Good pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Bad pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O003:Evidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Rule:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Reason:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Use when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Avoid when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Good pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Bad pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MR-O004:Evidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Rule:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Reason:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Use when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Avoid when:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Good pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Bad pattern:R37_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SION-M03:Evidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "R37:five_cards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O001:Rule:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O001:Reason:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O001:Use when:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O001:Avoid when:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O001:Good pattern:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O001:Bad pattern:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O001:Confidence:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O002:Rule:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O002:Reason:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O002:Use when:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O002:Avoid when:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O002:Good pattern:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O002:Bad pattern:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O002:Confidence:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O003:Rule:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O003:Reason:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O003:Use when:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O003:Avoid when:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O003:Good pattern:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O003:Bad pattern:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MW-O003:Confidence:W35_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "W35:three_rules",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HEAT-FK-M01:Rule:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HEAT-FK-M01:Reason:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HEAT-FK-M01:Use when:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HEAT-FK-M01:Avoid when:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HEAT-FK-M01:Good pattern:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HEAT-FK-M01:Bad pattern:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HEAT-FK-M01:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EULER-CET-DR-M01:Rule:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EULER-CET-DR-M01:Reason:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EULER-CET-DR-M01:Use when:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EULER-CET-DR-M01:Avoid when:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EULER-CET-DR-M01:Good pattern:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EULER-CET-DR-M01:Bad pattern:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EULER-CET-DR-M01:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KM86-W03:Rule:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KM86-W03:Reason:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KM86-W03:Use when:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KM86-W03:Avoid when:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KM86-W03:Good pattern:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KM86-W03:Bad pattern:candidate_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KM86-W03:Confidence:preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "shared_training_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relative_links",
+      "passed": true,
+      "detail": {
+        "checked": 179,
+        "broken": []
+      }
+    },
+    {
+      "check": "markdown_anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no_absolute_personal_paths",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

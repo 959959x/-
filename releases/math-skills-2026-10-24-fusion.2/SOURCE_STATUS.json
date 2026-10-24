@@ -1,0 +1,322 @@
+{
+  "release": "2026.10.24-fusion.2",
+  "source_status": {
+    "upstream_commit": "eb6f8130f67d2fb8c4d4d552985144d4412edde1",
+    "upstream_path": "releases/math-skills-2026-10-23/",
+    "writing": "W35/v35; 2026-10-16; inherited labels only",
+    "reasoning": "R37/v37; 2026-10-14; inherited labels only",
+    "baseline_commit": "d212c07aa5eb9ec71a6125a461bd440de5c26140",
+    "baseline_path": "fusion/"
+  },
+  "integration_status": {
+    "static_checks": true,
+    "behavior": "See validation/assessment.md; 9 tasks per version, no statistical superiority or new L3 claim"
+  },
+  "frozen_skill_files": [
+    {
+      "path": "math-paper-workflow/agents/openai.yaml",
+      "sha256": "911797e19b0f31bb485e6a96b31270d02ca83d8247be6e94e7ad85750b504cee",
+      "bytes": 423
+    },
+    {
+      "path": "math-paper-workflow/assets/icon.svg",
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210
+    },
+    {
+      "path": "math-paper-workflow/provenance/upstream-2026-10-23/LICENSE",
+      "sha256": "fc1782a7cb4d3c15b2951360d8d63c8fc6dbad7f782db7b7250dba3d91728b22",
+      "bytes": 1065
+    },
+    {
+      "path": "math-paper-workflow/provenance/upstream-2026-10-23/LICENSE_SCOPE.md",
+      "sha256": "831abf5d80a0c591930f9aca31ae6164518ebee422360b712e4d1cf76e034384",
+      "bytes": 1283
+    },
+    {
+      "path": "math-paper-workflow/provenance/upstream-2026-10-23/README.md",
+      "sha256": "32ea99b815c6fd4222936edb6a907b255739f76aa146d3c3ad8f4d611075fecd",
+      "bytes": 688
+    },
+    {
+      "path": "math-paper-workflow/README.md",
+      "sha256": "a2a486846b50eab62d59d0a74aeae2ab0cedd45144897d43db1cd0a536db0e34",
+      "bytes": 4004
+    },
+    {
+      "path": "math-paper-workflow/references/chinese-pde-writing-style.md",
+      "sha256": "ec5816765904c74c80c8a3f6a4eb20f4b6ae31446635232da4f704355d704c54",
+      "bytes": 3121
+    },
+    {
+      "path": "math-paper-workflow/references/dispersive-writing-style.md",
+      "sha256": "03a3c5b2c2d9b9dd4f2953673414f542531040e957344b4adc3f1daf9437ae25",
+      "bytes": 6786
+    },
+    {
+      "path": "math-paper-workflow/references/elliptic-writing-style.md",
+      "sha256": "6d2968ea677048476701d943e98b4b7b7bca15cfb43c53ae13418610ebcd0706",
+      "bytes": 5272
+    },
+    {
+      "path": "math-paper-workflow/references/evidence-sources.md",
+      "sha256": "fc47a2099a892f824f45fd870a9945730b4fdb131612c13c46c5593341ae1b87",
+      "bytes": 5531
+    },
+    {
+      "path": "math-paper-workflow/references/language-routes.md",
+      "sha256": "6769228531f8101259240361d5209849aa217ac173db30bbb0ddd1aeb321bf4d",
+      "bytes": 3754
+    },
+    {
+      "path": "math-paper-workflow/references/literature-style-samples.md",
+      "sha256": "7f80fb027bc60e26304494c126de3fd5cac3392857d226a14dfb45a90d9dffd5",
+      "bytes": 12051
+    },
+    {
+      "path": "math-paper-workflow/references/local-preferences.md",
+      "sha256": "4d8cbfa402bb7fea83fdf62d03980b25bd07b44620faa0f4d3435039be7749b2",
+      "bytes": 1098
+    },
+    {
+      "path": "math-paper-workflow/references/manuscript-editing.md",
+      "sha256": "6c749926d9766cae8a78c168f2802ad480725e449127cf47b71f5134a0f16ccd",
+      "bytes": 6630
+    },
+    {
+      "path": "math-paper-workflow/references/parabolic-writing-style.md",
+      "sha256": "f93f7b58952b6e0da56401c1356ad5d3196e9fa881ee12c0ff1b11a5bf12f727",
+      "bytes": 2212
+    },
+    {
+      "path": "math-paper-workflow/references/pde-writing-style.md",
+      "sha256": "9212b96c415a50014dda49919b98166b54a5fd15d94712805f666f7b41b48c59",
+      "bytes": 8817
+    },
+    {
+      "path": "math-paper-workflow/references/proof-audit.md",
+      "sha256": "17ea6916b38e7fd33b3be2953d9d4ca4f09681709746b3910bae8fa42558c2f2",
+      "bytes": 3485
+    },
+    {
+      "path": "math-paper-workflow/references/proof-grounded-writing.md",
+      "sha256": "5e6b614bfe4a71f5079e1b6463fe928205aa68451f208d7cd982b9f604e68fa9",
+      "bytes": 10296
+    },
+    {
+      "path": "math-paper-workflow/references/reference-selection.md",
+      "sha256": "ce62c95d2df3e5bb9cb294abf48d1f160345377da495d59300ba44cf238402f9",
+      "bytes": 4510
+    },
+    {
+      "path": "math-paper-workflow/SKILL.md",
+      "sha256": "263beb043ba30895f8acf412cae96d9a37ea76670002b9e9fb483f92caac2426",
+      "bytes": 11762
+    },
+    {
+      "path": "mathematical-reasoning/agents/openai.yaml",
+      "sha256": "efd8d851d6c083bc50519e64d4699d6a94f201a53a6d73a436418b650e394068",
+      "bytes": 400
+    },
+    {
+      "path": "mathematical-reasoning/assets/icon.svg",
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420
+    },
+    {
+      "path": "mathematical-reasoning/provenance/upstream-2026-10-23/LICENSE",
+      "sha256": "fc1782a7cb4d3c15b2951360d8d63c8fc6dbad7f782db7b7250dba3d91728b22",
+      "bytes": 1065
+    },
+    {
+      "path": "mathematical-reasoning/provenance/upstream-2026-10-23/LICENSE_SCOPE.md",
+      "sha256": "831abf5d80a0c591930f9aca31ae6164518ebee422360b712e4d1cf76e034384",
+      "bytes": 1283
+    },
+    {
+      "path": "mathematical-reasoning/provenance/upstream-2026-10-23/README.md",
+      "sha256": "32ea99b815c6fd4222936edb6a907b255739f76aa146d3c3ad8f4d611075fecd",
+      "bytes": 688
+    },
+    {
+      "path": "mathematical-reasoning/README.md",
+      "sha256": "7bf93d8f86d2926f2130f5c8614a5e2ae658689b8e2e998c5484f2fbc333417f",
+      "bytes": 2808
+    },
+    {
+      "path": "mathematical-reasoning/references/audit-domains.md",
+      "sha256": "325b9caf046622b598285027face6db97dfab572204a6265976faceceb15a0e6",
+      "bytes": 2676
+    },
+    {
+      "path": "mathematical-reasoning/references/evidence/MR-O001.md",
+      "sha256": "e489109d4e0a90d0a9368476809b09a7ff531583130751a1c6ec9b5b508d5379",
+      "bytes": 2927
+    },
+    {
+      "path": "mathematical-reasoning/references/evidence/MR-O002.md",
+      "sha256": "80bd6253e5577b119d455683e5d2156e2b2b66922b866ab6f7b58b6ca40420fe",
+      "bytes": 13730
+    },
+    {
+      "path": "mathematical-reasoning/references/evidence/MR-O003.md",
+      "sha256": "5bdd5bb72f25997e40c2dc98127be1b0c0393dd603fec950e2a2d391997ba088",
+      "bytes": 9209
+    },
+    {
+      "path": "mathematical-reasoning/references/evidence/MR-O004.md",
+      "sha256": "5b8603d907166258095cbf7dbbec25c458a49e84d3c76c9166fb9b73204a0151",
+      "bytes": 14588
+    },
+    {
+      "path": "mathematical-reasoning/references/evidence/SION-M03.md",
+      "sha256": "02dc320901756ed2ee980d4ad985ea43a57bcd36f1d33803f0b22fb60fe5e22f",
+      "bytes": 2048
+    },
+    {
+      "path": "mathematical-reasoning/references/evidence-sources.md",
+      "sha256": "647517d802c5dad5ffd7d8d96d5b7a9b690e07277efad51899661727609db3f2",
+      "bytes": 225
+    },
+    {
+      "path": "mathematical-reasoning/references/rule-candidates.md",
+      "sha256": "962ee1d43cdca58aa03d04ee7a086e435d7baba8f296847d2958a28fd2beeea0",
+      "bytes": 13126
+    },
+    {
+      "path": "mathematical-reasoning/references/rules/MR-O001.md",
+      "sha256": "589c1b3a5f46980053faf504d7421141fd32123fdb516b97ff2a842b754960fa",
+      "bytes": 4401
+    },
+    {
+      "path": "mathematical-reasoning/references/rules/MR-O002.md",
+      "sha256": "e81690a9b2f6e9fb6a26aade9fb7c5b69b6a3dc73bf249297ed2ea2f21d3e1ae",
+      "bytes": 2049
+    },
+    {
+      "path": "mathematical-reasoning/references/rules/MR-O003.md",
+      "sha256": "357aa8e56a89fa039c17766c95173dc92b12c584a3d400705a2af2f77f12faeb",
+      "bytes": 2456
+    },
+    {
+      "path": "mathematical-reasoning/references/rules/MR-O004.md",
+      "sha256": "f2fce96634f41411af134624535b06e6977f54f88ec011e885bd7fb8e016cc06",
+      "bytes": 2076
+    },
+    {
+      "path": "mathematical-reasoning/references/rules/SION-M03.md",
+      "sha256": "9d09e29823c73c37663e9ba6d5673d6a5c8860b2793fe8ddbe406f48c29f6980",
+      "bytes": 4212
+    },
+    {
+      "path": "mathematical-reasoning/references/training-contract.md",
+      "sha256": "f79fcd5b845345dcb385075e73cbdc3def24bca3b2c7a35b6e009e0b8aa7b960",
+      "bytes": 9040
+    },
+    {
+      "path": "mathematical-reasoning/references/validated-rules.md",
+      "sha256": "6935d58d1b82985c269a73f5b8324ad6d865365e21e577092b9e73d12a59f723",
+      "bytes": 2162
+    },
+    {
+      "path": "mathematical-reasoning/SKILL.md",
+      "sha256": "b311f44df9e7615ccdd7719fdb7ee58ee16c7368bdfad141828dbef070534940",
+      "bytes": 5677
+    },
+    {
+      "path": "mathematical-writing/agents/openai.yaml",
+      "sha256": "c33223de4e68fc36c45b2097e439da9b884625542542bcb77e9abb73d4ca4396",
+      "bytes": 397
+    },
+    {
+      "path": "mathematical-writing/assets/icon.svg",
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210
+    },
+    {
+      "path": "mathematical-writing/provenance/upstream-2026-10-23/LICENSE",
+      "sha256": "fc1782a7cb4d3c15b2951360d8d63c8fc6dbad7f782db7b7250dba3d91728b22",
+      "bytes": 1065
+    },
+    {
+      "path": "mathematical-writing/provenance/upstream-2026-10-23/LICENSE_SCOPE.md",
+      "sha256": "831abf5d80a0c591930f9aca31ae6164518ebee422360b712e4d1cf76e034384",
+      "bytes": 1283
+    },
+    {
+      "path": "mathematical-writing/provenance/upstream-2026-10-23/README.md",
+      "sha256": "32ea99b815c6fd4222936edb6a907b255739f76aa146d3c3ad8f4d611075fecd",
+      "bytes": 688
+    },
+    {
+      "path": "mathematical-writing/README.md",
+      "sha256": "96fb3651a70ea887deb75af5e8e5606652cc1580917cadf2abe4c3388a34c524",
+      "bytes": 3963
+    },
+    {
+      "path": "mathematical-writing/references/bibliography.md",
+      "sha256": "5918f70b6134afba44ec67d8f94cd32c50e7c02d3104e74afc6f426e6f6ad56f",
+      "bytes": 3076
+    },
+    {
+      "path": "mathematical-writing/references/evidence-notes.md",
+      "sha256": "0c6152ece643e4b897fac769389e916c80786c73bf0274b740dc151ba9a6366e",
+      "bytes": 3505
+    },
+    {
+      "path": "mathematical-writing/references/evidence-sources.md",
+      "sha256": "647517d802c5dad5ffd7d8d96d5b7a9b690e07277efad51899661727609db3f2",
+      "bytes": 225
+    },
+    {
+      "path": "mathematical-writing/references/fusion-provenance.md",
+      "sha256": "9bf5c675e2ee2bf03b61afd7b993cd3347f873703d4285526efbe3891827c8cf",
+      "bytes": 4759
+    },
+    {
+      "path": "mathematical-writing/references/journal-adaptation.md",
+      "sha256": "246bd7a3d55996ad4bf93f949dbb29469946a0c19ac3fb1e12f334133a0a10a6",
+      "bytes": 5431
+    },
+    {
+      "path": "mathematical-writing/references/language-routes.md",
+      "sha256": "197dc663788f402f684f9d7cbec1f5cd97a83543243ca602807820e5a1c0b246",
+      "bytes": 3937
+    },
+    {
+      "path": "mathematical-writing/references/legacy-evidence-inventory.md",
+      "sha256": "3595666c96921dc07f9b0f6c166e718b8ab3a6f07d94bc531a3096ca2325b2ab",
+      "bytes": 1428
+    },
+    {
+      "path": "mathematical-writing/references/manuscript-editing.md",
+      "sha256": "10a1cd89d3d5b3ef5d07a6f59557e85646f9ec4ca1c6388913606d6da260eb9a",
+      "bytes": 6755
+    },
+    {
+      "path": "mathematical-writing/references/research-framing.md",
+      "sha256": "29c76b8ead8d3414c9466f1bf7bca9dd46564b141f120f28fc21d985d9cfc632",
+      "bytes": 5706
+    },
+    {
+      "path": "mathematical-writing/references/rule-candidates.md",
+      "sha256": "f1cb3dc8712d51d7995fafdc0e7ec45ee09dc532b58454fba8972f346f225b45",
+      "bytes": 2660
+    },
+    {
+      "path": "mathematical-writing/references/training-contract.md",
+      "sha256": "f79fcd5b845345dcb385075e73cbdc3def24bca3b2c7a35b6e009e0b8aa7b960",
+      "bytes": 9040
+    },
+    {
+      "path": "mathematical-writing/references/validated-rules.md",
+      "sha256": "3e64c17fcb225325cb021aa9aa2a54d307e6992934f7900a91f6aba006a0eb5a",
+      "bytes": 9626
+    },
+    {
+      "path": "mathematical-writing/SKILL.md",
+      "sha256": "5fbdb9a9610204e68d39bccd278d2e4ef66dbd15f9996213e45f5f01f5bf1fc2",
+      "bytes": 8713
+    }
+  ]
+}
