@@ -1,0 +1,8 @@
+interface:
+  display_name: 数学论文写作与证明审查
+  short_description: 严谨组织数学与PDE论文，逐步审查假设、关键估计、完整证明及真实文献
+  default_prompt: 请使用 $math-paper-workflow，按我指定的范围处理数学论文，并明确证明状态与尚未解决的缺口。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
